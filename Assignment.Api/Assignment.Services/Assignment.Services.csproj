@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.16" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Assignment.Dtos\Assignment.Dtos.csproj" />
+    <ProjectReference Include="..\Assignment.Infrastructures\Assignment.Infrastructures.csproj" />
+    <ProjectReference Include="..\Assignment.Models\Assignment.Models.csproj" />
+    <ProjectReference Include="..\Assignment.Utilities\Assignment.Utilities.csproj" />
+  </ItemGroup>
+
+</Project>
